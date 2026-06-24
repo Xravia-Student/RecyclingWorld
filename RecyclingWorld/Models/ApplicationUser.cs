@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity;
 
-namespace SD7501_RecyclingWorld_22502551.Models
+namespace RecyclingWorld.Models
 {
     public class ApplicationUser : IdentityUser
     {

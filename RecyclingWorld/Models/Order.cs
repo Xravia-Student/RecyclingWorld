@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
 
-namespace SD7501_RecyclingWorld_22502551.Models
+namespace RecyclingWorld.Models
 {
     public class Order
     {
