@@ -1,0 +1,52 @@
+﻿@model List<RecyclingWorld.Models.CartItem>
+
+@{
+    ViewData["Title"] = "Your Cart";
+}
+
+<h1 class="" mb-4">Your Cart</h1>
+@if (Model == null || !Model.Any())
+{
+    <div class="alert alert-info">Your cart is empty. <a asp-controller="Product" asp-action="Index">Browse materials</a>.</div>
+}
+else
+{
+    <table class="table align-middle">
+        <thead>
+            <tr>
+                <th>Material</th>
+                <th>Price/kg</th>
+                <th>Quantity (kg)</th>
+                <th>Line Total</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Title</td>
+                    <td>$@item.PricePerKg</td>
+                    <td>@item.Quantity</td>
+                    <td>$@item.LineTotal</td>
+                    <td>
+                        <form asp-controller="Cart" asp-action="RemoveFromCart" method="post">
+                            @Html.AntiForgeryToken()
+                            <input type="hidden" name="productId" value="@item.ProductId" />
+                            <button type="submit" class="btn btn-danger btn-sm">Remove</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+        <tfoot>
+            <tr>
+                <th colspan="3" class="text-end">Total:</th>
+                <th>$@Model.Sum(i => i.LineTotal)</th>
+                <th></th>
+            </tr>
+        </tfoot>
+    </table>
+
+    <a asp-controller="Order" asp-action="Summary" class="btn btn-success">Proceed to Checkout</a>
+}
