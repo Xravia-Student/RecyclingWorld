@@ -13,15 +13,15 @@ namespace RecyclingWorld.Models
         public string description { get; set; }
         [Required]
         public string Grade { get; set; }
-        [Range(0, 1000000000)]
+        [Range(0, 10000000)]
         [Display(Name = "Price Per Kg")]
         public decimal PricePerKg { get; set; }
 
-        [Range(0, 1000000000)]
+        [Range(0, 10000000)]
         [Display(Name = "Price Per Kg (500kg+)")]
         public decimal PricePerKg500 { get; set; }
 
-        [Range(0, 1000000000)]
+        [Range(0, 10000000)]
         [Display(Name = "Price Per Kg (1000kg+)")]
         public decimal PricePerKg1000 { get; set; }
 

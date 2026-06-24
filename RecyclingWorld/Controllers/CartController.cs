@@ -53,7 +53,7 @@ namespace RecyclingWorld.Controllers
         public IActionResult RemoveFromCart(int productId)
         {
             var cart = HttpContext.Session.GetObject<List<CartItem>>(CartKey) ?? new List<CartItem>();
-            cart.removeAll(c => c.ProductId == productId);
+            cart.RemoveAll(c => c.ProductId == productId);
             HttpContext.Session.SetObject(CartKey, cart);
             return RedirectToAction("Index");
         }

@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RecyclingWorld")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8365b474c75440ec195b0035168946bef9bb8bc8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+44cbb5cca6e7de821aa689218afce207d5f2c0fd")]
 [assembly: System.Reflection.AssemblyProductAttribute("RecyclingWorld")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RecyclingWorld")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
