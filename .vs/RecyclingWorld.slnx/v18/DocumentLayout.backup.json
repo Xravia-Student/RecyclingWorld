@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\GGPC\\Downloads\\Car Garage\\RecyclingWorld\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E13748FE-9A70-0DC1-A69A-0DDAFE1DACFA}|RecyclingWorld\\RecyclingWorld.csproj|c:\\users\\ggpc\\downloads\\car garage\\recyclingworld\\recyclingworld\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E13748FE-9A70-0DC1-A69A-0DDAFE1DACFA}|RecyclingWorld\\RecyclingWorld.csproj|solutionrelative:recyclingworld\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\GGPC\\Downloads\\Car Garage\\RecyclingWorld\\RecyclingWorld\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "RecyclingWorld\\Models\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\GGPC\\Downloads\\Car Garage\\RecyclingWorld\\RecyclingWorld\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "RecyclingWorld\\Models\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-24T00:20:31.587Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
