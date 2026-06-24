@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using RecyclingWorld.Data;
+using RecyclingWorld.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,8 +11,10 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(connectionString));
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
-builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
+builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = false)
+    .AddRoles<IdentityRole>() //switches to using roles for authorization, allowing for role-based access control in the application. This enables the application to define different roles (e.g., Admin, User) and assign permissions based on those roles, enhancing security and user management capabilities
     .AddEntityFrameworkStores<ApplicationDbContext>();
+builder.Services
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
