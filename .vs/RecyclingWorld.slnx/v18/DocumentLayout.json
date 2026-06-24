@@ -3,6 +3,26 @@
   "WorkspaceRootPath": "C:\\Users\\GGPC\\Downloads\\Car Garage\\RecyclingWorld\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E13748FE-9A70-0DC1-A69A-0DDAFE1DACFA}|RecyclingWorld\\RecyclingWorld.csproj|c:\\users\\ggpc\\downloads\\car garage\\recyclingworld\\recyclingworld\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E13748FE-9A70-0DC1-A69A-0DDAFE1DACFA}|RecyclingWorld\\RecyclingWorld.csproj|solutionrelative:recyclingworld\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E13748FE-9A70-0DC1-A69A-0DDAFE1DACFA}|RecyclingWorld\\RecyclingWorld.csproj|c:\\users\\ggpc\\downloads\\car garage\\recyclingworld\\recyclingworld\\viewmodels\\ordersummaryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E13748FE-9A70-0DC1-A69A-0DDAFE1DACFA}|RecyclingWorld\\RecyclingWorld.csproj|solutionrelative:recyclingworld\\viewmodels\\ordersummaryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E13748FE-9A70-0DC1-A69A-0DDAFE1DACFA}|RecyclingWorld\\RecyclingWorld.csproj|c:\\users\\ggpc\\downloads\\car garage\\recyclingworld\\recyclingworld\\recyclingworld.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E13748FE-9A70-0DC1-A69A-0DDAFE1DACFA}|RecyclingWorld\\RecyclingWorld.csproj|solutionrelative:recyclingworld\\recyclingworld.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E13748FE-9A70-0DC1-A69A-0DDAFE1DACFA}|RecyclingWorld\\RecyclingWorld.csproj|c:\\users\\ggpc\\downloads\\car garage\\recyclingworld\\recyclingworld\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E13748FE-9A70-0DC1-A69A-0DDAFE1DACFA}|RecyclingWorld\\RecyclingWorld.csproj|solutionrelative:recyclingworld\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E13748FE-9A70-0DC1-A69A-0DDAFE1DACFA}|RecyclingWorld\\RecyclingWorld.csproj|c:\\users\\ggpc\\downloads\\car garage\\recyclingworld\\recyclingworld\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E13748FE-9A70-0DC1-A69A-0DDAFE1DACFA}|RecyclingWorld\\RecyclingWorld.csproj|solutionrelative:recyclingworld\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E13748FE-9A70-0DC1-A69A-0DDAFE1DACFA}|RecyclingWorld\\RecyclingWorld.csproj|c:\\users\\ggpc\\downloads\\car garage\\recyclingworld\\recyclingworld\\areas\\identity\\pages\\account\\logout.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E13748FE-9A70-0DC1-A69A-0DDAFE1DACFA}|RecyclingWorld\\RecyclingWorld.csproj|solutionrelative:recyclingworld\\areas\\identity\\pages\\account\\logout.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,10 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{E13748FE-9A70-0DC1-A69A-0DDAFE1DACFA}|RecyclingWorld\\RecyclingWorld.csproj|c:\\users\\ggpc\\downloads\\car garage\\recyclingworld\\recyclingworld\\areas\\identity\\pages\\account\\manage\\setpassword.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E13748FE-9A70-0DC1-A69A-0DDAFE1DACFA}|RecyclingWorld\\RecyclingWorld.csproj|solutionrelative:recyclingworld\\areas\\identity\\pages\\account\\manage\\setpassword.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E13748FE-9A70-0DC1-A69A-0DDAFE1DACFA}|RecyclingWorld\\RecyclingWorld.csproj|c:\\users\\ggpc\\downloads\\car garage\\recyclingworld\\recyclingworld\\recyclingworld.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{E13748FE-9A70-0DC1-A69A-0DDAFE1DACFA}|RecyclingWorld\\RecyclingWorld.csproj|solutionrelative:recyclingworld\\recyclingworld.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E13748FE-9A70-0DC1-A69A-0DDAFE1DACFA}|RecyclingWorld\\RecyclingWorld.csproj|c:\\users\\ggpc\\downloads\\car garage\\recyclingworld\\recyclingworld\\areas\\identity\\pages\\account\\resetpassword.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -93,10 +109,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{E13748FE-9A70-0DC1-A69A-0DDAFE1DACFA}|RecyclingWorld\\RecyclingWorld.csproj|c:\\users\\ggpc\\downloads\\car garage\\recyclingworld\\recyclingworld\\areas\\identity\\pages\\account\\forgotpassword.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E13748FE-9A70-0DC1-A69A-0DDAFE1DACFA}|RecyclingWorld\\RecyclingWorld.csproj|solutionrelative:recyclingworld\\areas\\identity\\pages\\account\\forgotpassword.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E13748FE-9A70-0DC1-A69A-0DDAFE1DACFA}|RecyclingWorld\\RecyclingWorld.csproj|c:\\users\\ggpc\\downloads\\car garage\\recyclingworld\\recyclingworld\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E13748FE-9A70-0DC1-A69A-0DDAFE1DACFA}|RecyclingWorld\\RecyclingWorld.csproj|solutionrelative:recyclingworld\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E13748FE-9A70-0DC1-A69A-0DDAFE1DACFA}|RecyclingWorld\\RecyclingWorld.csproj|c:\\users\\ggpc\\downloads\\car garage\\recyclingworld\\recyclingworld\\areas\\identity\\pages\\account\\externallogin.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -202,16 +214,55 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\GGPC\\Downloads\\Car Garage\\RecyclingWorld\\RecyclingWorld\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "RecyclingWorld\\Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\GGPC\\Downloads\\Car Garage\\RecyclingWorld\\RecyclingWorld\\Controllers\\OrderController.cs*",
+              "RelativeToolTip": "RecyclingWorld\\Controllers\\OrderController.cs*",
+              "ViewState": "AgIAABIAAAAAAAAAAAAmwI4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-24T08:07:33.017Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "OrderSummaryViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\GGPC\\Downloads\\Car Garage\\RecyclingWorld\\RecyclingWorld\\ViewModels\\OrderSummaryViewModel.cs",
+              "RelativeDocumentMoniker": "RecyclingWorld\\ViewModels\\OrderSummaryViewModel.cs",
+              "ToolTip": "C:\\Users\\GGPC\\Downloads\\Car Garage\\RecyclingWorld\\RecyclingWorld\\ViewModels\\OrderSummaryViewModel.cs*",
+              "RelativeToolTip": "RecyclingWorld\\ViewModels\\OrderSummaryViewModel.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-24T07:30:57.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\GGPC\\Downloads\\Car Garage\\RecyclingWorld\\RecyclingWorld\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "RecyclingWorld\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\GGPC\\Downloads\\Car Garage\\RecyclingWorld\\RecyclingWorld\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "RecyclingWorld\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-24T07:27:47.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "ManageNavPages.cs",
               "DocumentMoniker": "C:\\Users\\GGPC\\Downloads\\Car Garage\\RecyclingWorld\\RecyclingWorld\\Areas\\Identity\\Pages\\Account\\Manage\\ManageNavPages.cs",
               "RelativeDocumentMoniker": "RecyclingWorld\\Areas\\Identity\\Pages\\Account\\Manage\\ManageNavPages.cs",
-              "ToolTip": "C:\\Users\\GGPC\\Downloads\\Car Garage\\RecyclingWorld\\RecyclingWorld\\Areas\\Identity\\Pages\\Account\\Manage\\ManageNavPages.cs*",
-              "RelativeToolTip": "RecyclingWorld\\Areas\\Identity\\Pages\\Account\\Manage\\ManageNavPages.cs*",
+              "ToolTip": "C:\\Users\\GGPC\\Downloads\\Car Garage\\RecyclingWorld\\RecyclingWorld\\Areas\\Identity\\Pages\\Account\\Manage\\ManageNavPages.cs",
+              "RelativeToolTip": "RecyclingWorld\\Areas\\Identity\\Pages\\Account\\Manage\\ManageNavPages.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAGMAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-24T07:24:36.037Z",
@@ -219,7 +270,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "ResetPassword.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\GGPC\\Downloads\\Car Garage\\RecyclingWorld\\RecyclingWorld\\Areas\\Identity\\Pages\\Account\\ResetPassword.cshtml.cs",
               "RelativeDocumentMoniker": "RecyclingWorld\\Areas\\Identity\\Pages\\Account\\ResetPassword.cshtml.cs",
@@ -232,7 +283,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "ResendEmailConfirmation.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\GGPC\\Downloads\\Car Garage\\RecyclingWorld\\RecyclingWorld\\Areas\\Identity\\Pages\\Account\\ResendEmailConfirmation.cshtml.cs",
               "RelativeDocumentMoniker": "RecyclingWorld\\Areas\\Identity\\Pages\\Account\\ResendEmailConfirmation.cshtml.cs",
@@ -245,7 +296,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "RegisterConfirmation.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\GGPC\\Downloads\\Car Garage\\RecyclingWorld\\RecyclingWorld\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml.cs",
               "RelativeDocumentMoniker": "RecyclingWorld\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml.cs",
@@ -259,32 +310,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "_ManageNav.cshtml",
-              "DocumentMoniker": "C:\\Users\\GGPC\\Downloads\\Car Garage\\RecyclingWorld\\RecyclingWorld\\Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
-              "RelativeDocumentMoniker": "RecyclingWorld\\Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
-              "ToolTip": "C:\\Users\\GGPC\\Downloads\\Car Garage\\RecyclingWorld\\RecyclingWorld\\Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
-              "RelativeToolTip": "RecyclingWorld\\Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-24T07:21:38.095Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "TwoFactorAuthentication.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\GGPC\\Downloads\\Car Garage\\RecyclingWorld\\RecyclingWorld\\Areas\\Identity\\Pages\\Account\\Manage\\TwoFactorAuthentication.cshtml.cs",
-              "RelativeDocumentMoniker": "RecyclingWorld\\Areas\\Identity\\Pages\\Account\\Manage\\TwoFactorAuthentication.cshtml.cs",
-              "ToolTip": "C:\\Users\\GGPC\\Downloads\\Car Garage\\RecyclingWorld\\RecyclingWorld\\Areas\\Identity\\Pages\\Account\\Manage\\TwoFactorAuthentication.cshtml.cs",
-              "RelativeToolTip": "RecyclingWorld\\Areas\\Identity\\Pages\\Account\\Manage\\TwoFactorAuthentication.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-24T07:21:29.084Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "SetPassword.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\GGPC\\Downloads\\Car Garage\\RecyclingWorld\\RecyclingWorld\\Areas\\Identity\\Pages\\Account\\Manage\\SetPassword.cshtml.cs",
               "RelativeDocumentMoniker": "RecyclingWorld\\Areas\\Identity\\Pages\\Account\\Manage\\SetPassword.cshtml.cs",
@@ -297,12 +322,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "Logout.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\GGPC\\Downloads\\Car Garage\\RecyclingWorld\\RecyclingWorld\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
               "RelativeDocumentMoniker": "RecyclingWorld\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
-              "ToolTip": "C:\\Users\\GGPC\\Downloads\\Car Garage\\RecyclingWorld\\RecyclingWorld\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs*",
-              "RelativeToolTip": "RecyclingWorld\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs*",
+              "ToolTip": "C:\\Users\\GGPC\\Downloads\\Car Garage\\RecyclingWorld\\RecyclingWorld\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
+              "RelativeToolTip": "RecyclingWorld\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-24T07:19:59.923Z",
@@ -310,33 +335,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ResetAuthenticator.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\GGPC\\Downloads\\Car Garage\\RecyclingWorld\\RecyclingWorld\\Areas\\Identity\\Pages\\Account\\Manage\\ResetAuthenticator.cshtml.cs",
-              "RelativeDocumentMoniker": "RecyclingWorld\\Areas\\Identity\\Pages\\Account\\Manage\\ResetAuthenticator.cshtml.cs",
-              "ToolTip": "C:\\Users\\GGPC\\Downloads\\Car Garage\\RecyclingWorld\\RecyclingWorld\\Areas\\Identity\\Pages\\Account\\Manage\\ResetAuthenticator.cshtml.cs",
-              "RelativeToolTip": "RecyclingWorld\\Areas\\Identity\\Pages\\Account\\Manage\\ResetAuthenticator.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-24T07:21:11.457Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "PersonalData.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\GGPC\\Downloads\\Car Garage\\RecyclingWorld\\RecyclingWorld\\Areas\\Identity\\Pages\\Account\\Manage\\PersonalData.cshtml.cs",
-              "RelativeDocumentMoniker": "RecyclingWorld\\Areas\\Identity\\Pages\\Account\\Manage\\PersonalData.cshtml.cs",
-              "ToolTip": "C:\\Users\\GGPC\\Downloads\\Car Garage\\RecyclingWorld\\RecyclingWorld\\Areas\\Identity\\Pages\\Account\\Manage\\PersonalData.cshtml.cs",
-              "RelativeToolTip": "RecyclingWorld\\Areas\\Identity\\Pages\\Account\\Manage\\PersonalData.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-24T07:21:04.251Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\GGPC\\Downloads\\Car Garage\\RecyclingWorld\\RecyclingWorld\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "RecyclingWorld\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ToolTip": "C:\\Users\\GGPC\\Downloads\\Car Garage\\RecyclingWorld\\RecyclingWorld\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeToolTip": "RecyclingWorld\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-24T07:18:04.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "RecyclingWorld",
               "DocumentMoniker": "C:\\Users\\GGPC\\Downloads\\Car Garage\\RecyclingWorld\\RecyclingWorld\\RecyclingWorld.csproj",
               "RelativeDocumentMoniker": "RecyclingWorld\\RecyclingWorld.csproj",
@@ -350,6 +362,58 @@
             {
               "$type": "Document",
               "DocumentIndex": 11,
+              "Title": "_ManageNav.cshtml",
+              "DocumentMoniker": "C:\\Users\\GGPC\\Downloads\\Car Garage\\RecyclingWorld\\RecyclingWorld\\Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
+              "RelativeDocumentMoniker": "RecyclingWorld\\Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
+              "ToolTip": "C:\\Users\\GGPC\\Downloads\\Car Garage\\RecyclingWorld\\RecyclingWorld\\Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
+              "RelativeToolTip": "RecyclingWorld\\Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-24T07:21:38.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TwoFactorAuthentication.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\GGPC\\Downloads\\Car Garage\\RecyclingWorld\\RecyclingWorld\\Areas\\Identity\\Pages\\Account\\Manage\\TwoFactorAuthentication.cshtml.cs",
+              "RelativeDocumentMoniker": "RecyclingWorld\\Areas\\Identity\\Pages\\Account\\Manage\\TwoFactorAuthentication.cshtml.cs",
+              "ToolTip": "C:\\Users\\GGPC\\Downloads\\Car Garage\\RecyclingWorld\\RecyclingWorld\\Areas\\Identity\\Pages\\Account\\Manage\\TwoFactorAuthentication.cshtml.cs",
+              "RelativeToolTip": "RecyclingWorld\\Areas\\Identity\\Pages\\Account\\Manage\\TwoFactorAuthentication.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-24T07:21:29.084Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ResetAuthenticator.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\GGPC\\Downloads\\Car Garage\\RecyclingWorld\\RecyclingWorld\\Areas\\Identity\\Pages\\Account\\Manage\\ResetAuthenticator.cshtml.cs",
+              "RelativeDocumentMoniker": "RecyclingWorld\\Areas\\Identity\\Pages\\Account\\Manage\\ResetAuthenticator.cshtml.cs",
+              "ToolTip": "C:\\Users\\GGPC\\Downloads\\Car Garage\\RecyclingWorld\\RecyclingWorld\\Areas\\Identity\\Pages\\Account\\Manage\\ResetAuthenticator.cshtml.cs",
+              "RelativeToolTip": "RecyclingWorld\\Areas\\Identity\\Pages\\Account\\Manage\\ResetAuthenticator.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-24T07:21:11.457Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PersonalData.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\GGPC\\Downloads\\Car Garage\\RecyclingWorld\\RecyclingWorld\\Areas\\Identity\\Pages\\Account\\Manage\\PersonalData.cshtml.cs",
+              "RelativeDocumentMoniker": "RecyclingWorld\\Areas\\Identity\\Pages\\Account\\Manage\\PersonalData.cshtml.cs",
+              "ToolTip": "C:\\Users\\GGPC\\Downloads\\Car Garage\\RecyclingWorld\\RecyclingWorld\\Areas\\Identity\\Pages\\Account\\Manage\\PersonalData.cshtml.cs",
+              "RelativeToolTip": "RecyclingWorld\\Areas\\Identity\\Pages\\Account\\Manage\\PersonalData.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-24T07:21:04.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "GenerateRecoveryCodes.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\GGPC\\Downloads\\Car Garage\\RecyclingWorld\\RecyclingWorld\\Areas\\Identity\\Pages\\Account\\Manage\\GenerateRecoveryCodes.cshtml.cs",
               "RelativeDocumentMoniker": "RecyclingWorld\\Areas\\Identity\\Pages\\Account\\Manage\\GenerateRecoveryCodes.cshtml.cs",
@@ -362,7 +426,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "Index.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\GGPC\\Downloads\\Car Garage\\RecyclingWorld\\RecyclingWorld\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml.cs",
               "RelativeDocumentMoniker": "RecyclingWorld\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml.cs",
@@ -375,7 +439,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 17,
               "Title": "ExternalLogins.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\GGPC\\Downloads\\Car Garage\\RecyclingWorld\\RecyclingWorld\\Areas\\Identity\\Pages\\Account\\Manage\\ExternalLogins.cshtml.cs",
               "RelativeDocumentMoniker": "RecyclingWorld\\Areas\\Identity\\Pages\\Account\\Manage\\ExternalLogins.cshtml.cs",
@@ -388,7 +452,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 18,
               "Title": "Disable2fa.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\GGPC\\Downloads\\Car Garage\\RecyclingWorld\\RecyclingWorld\\Areas\\Identity\\Pages\\Account\\Manage\\Disable2fa.cshtml.cs",
               "RelativeDocumentMoniker": "RecyclingWorld\\Areas\\Identity\\Pages\\Account\\Manage\\Disable2fa.cshtml.cs",
@@ -401,7 +465,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 19,
               "Title": "EnableAuthenticator.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\GGPC\\Downloads\\Car Garage\\RecyclingWorld\\RecyclingWorld\\Areas\\Identity\\Pages\\Account\\Manage\\EnableAuthenticator.cshtml.cs",
               "RelativeDocumentMoniker": "RecyclingWorld\\Areas\\Identity\\Pages\\Account\\Manage\\EnableAuthenticator.cshtml.cs",
@@ -414,7 +478,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 20,
               "Title": "Email.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\GGPC\\Downloads\\Car Garage\\RecyclingWorld\\RecyclingWorld\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml.cs",
               "RelativeDocumentMoniker": "RecyclingWorld\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml.cs",
@@ -427,7 +491,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 21,
               "Title": "DownloadPersonalData.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\GGPC\\Downloads\\Car Garage\\RecyclingWorld\\RecyclingWorld\\Areas\\Identity\\Pages\\Account\\Manage\\DownloadPersonalData.cshtml.cs",
               "RelativeDocumentMoniker": "RecyclingWorld\\Areas\\Identity\\Pages\\Account\\Manage\\DownloadPersonalData.cshtml.cs",
@@ -440,7 +504,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 22,
               "Title": "DeletePersonalData.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\GGPC\\Downloads\\Car Garage\\RecyclingWorld\\RecyclingWorld\\Areas\\Identity\\Pages\\Account\\Manage\\DeletePersonalData.cshtml.cs",
               "RelativeDocumentMoniker": "RecyclingWorld\\Areas\\Identity\\Pages\\Account\\Manage\\DeletePersonalData.cshtml.cs",
@@ -453,7 +517,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 23,
               "Title": "ChangePassword.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\GGPC\\Downloads\\Car Garage\\RecyclingWorld\\RecyclingWorld\\Areas\\Identity\\Pages\\Account\\Manage\\ChangePassword.cshtml.cs",
               "RelativeDocumentMoniker": "RecyclingWorld\\Areas\\Identity\\Pages\\Account\\Manage\\ChangePassword.cshtml.cs",
@@ -466,7 +530,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 24,
               "Title": "LoginWithRecoveryCode.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\GGPC\\Downloads\\Car Garage\\RecyclingWorld\\RecyclingWorld\\Areas\\Identity\\Pages\\Account\\LoginWithRecoveryCode.cshtml.cs",
               "RelativeDocumentMoniker": "RecyclingWorld\\Areas\\Identity\\Pages\\Account\\LoginWithRecoveryCode.cshtml.cs",
@@ -479,7 +543,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 25,
               "Title": "LoginWith2fa.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\GGPC\\Downloads\\Car Garage\\RecyclingWorld\\RecyclingWorld\\Areas\\Identity\\Pages\\Account\\LoginWith2fa.cshtml.cs",
               "RelativeDocumentMoniker": "RecyclingWorld\\Areas\\Identity\\Pages\\Account\\LoginWith2fa.cshtml.cs",
@@ -492,7 +556,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 26,
               "Title": "ForgotPassword.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\GGPC\\Downloads\\Car Garage\\RecyclingWorld\\RecyclingWorld\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml.cs",
               "RelativeDocumentMoniker": "RecyclingWorld\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml.cs",
@@ -505,20 +569,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "Login.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\GGPC\\Downloads\\Car Garage\\RecyclingWorld\\RecyclingWorld\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
-              "RelativeDocumentMoniker": "RecyclingWorld\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
-              "ToolTip": "C:\\Users\\GGPC\\Downloads\\Car Garage\\RecyclingWorld\\RecyclingWorld\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
-              "RelativeToolTip": "RecyclingWorld\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAADwvxcAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-24T07:18:04.774Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 27,
               "Title": "ExternalLogin.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\GGPC\\Downloads\\Car Garage\\RecyclingWorld\\RecyclingWorld\\Areas\\Identity\\Pages\\Account\\ExternalLogin.cshtml.cs",
               "RelativeDocumentMoniker": "RecyclingWorld\\Areas\\Identity\\Pages\\Account\\ExternalLogin.cshtml.cs",
@@ -531,7 +582,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 28,
               "Title": "ConfirmEmailChange.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\GGPC\\Downloads\\Car Garage\\RecyclingWorld\\RecyclingWorld\\Areas\\Identity\\Pages\\Account\\ConfirmEmailChange.cshtml.cs",
               "RelativeDocumentMoniker": "RecyclingWorld\\Areas\\Identity\\Pages\\Account\\ConfirmEmailChange.cshtml.cs",
@@ -544,7 +595,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 29,
               "Title": "ConfirmEmail.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\GGPC\\Downloads\\Car Garage\\RecyclingWorld\\RecyclingWorld\\Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml.cs",
               "RelativeDocumentMoniker": "RecyclingWorld\\Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml.cs",
@@ -557,7 +608,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 30,
               "Title": "Register.cshtml",
               "DocumentMoniker": "C:\\Users\\GGPC\\Downloads\\Car Garage\\RecyclingWorld\\RecyclingWorld\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
               "RelativeDocumentMoniker": "RecyclingWorld\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
@@ -570,7 +621,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 31,
               "Title": "Register.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\GGPC\\Downloads\\Car Garage\\RecyclingWorld\\RecyclingWorld\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
               "RelativeDocumentMoniker": "RecyclingWorld\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
@@ -583,7 +634,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 33,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\GGPC\\Downloads\\Car Garage\\RecyclingWorld\\RecyclingWorld\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "RecyclingWorld\\Views\\Shared\\_Layout.cshtml",
@@ -596,7 +647,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 34,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\GGPC\\Downloads\\Car Garage\\RecyclingWorld\\RecyclingWorld\\Views\\Cart\\Index.cshtml",
               "RelativeDocumentMoniker": "RecyclingWorld\\Views\\Cart\\Index.cshtml",
@@ -609,7 +660,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 35,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "C:\\Users\\GGPC\\Downloads\\Car Garage\\RecyclingWorld\\RecyclingWorld\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "RecyclingWorld\\Models\\ErrorViewModel.cs",
@@ -622,7 +673,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 37,
               "Title": "CartController.cs",
               "DocumentMoniker": "C:\\Users\\GGPC\\Downloads\\Car Garage\\RecyclingWorld\\RecyclingWorld\\Controllers\\CartController.cs",
               "RelativeDocumentMoniker": "RecyclingWorld\\Controllers\\CartController.cs",
@@ -635,7 +686,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 36,
               "Title": "CartItem.cs",
               "DocumentMoniker": "C:\\Users\\GGPC\\Downloads\\Car Garage\\RecyclingWorld\\RecyclingWorld\\Models\\CartItem.cs",
               "RelativeDocumentMoniker": "RecyclingWorld\\Models\\CartItem.cs",
@@ -648,7 +699,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 38,
               "Title": "SessionExtensions.cs",
               "DocumentMoniker": "C:\\Users\\GGPC\\Downloads\\Car Garage\\RecyclingWorld\\RecyclingWorld\\Utilities\\SessionExtensions.cs",
               "RelativeDocumentMoniker": "RecyclingWorld\\Utilities\\SessionExtensions.cs",
@@ -661,7 +712,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 32,
               "Title": "ApplicationUser.cs",
               "DocumentMoniker": "C:\\Users\\GGPC\\Downloads\\Car Garage\\RecyclingWorld\\RecyclingWorld\\Models\\ApplicationUser.cs",
               "RelativeDocumentMoniker": "RecyclingWorld\\Models\\ApplicationUser.cs",
@@ -674,7 +725,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 40,
               "Title": "jquery.js",
               "DocumentMoniker": "C:\\Users\\GGPC\\Downloads\\Car Garage\\RecyclingWorld\\RecyclingWorld\\wwwroot\\lib\\jquery\\dist\\jquery.js",
               "RelativeDocumentMoniker": "RecyclingWorld\\wwwroot\\lib\\jquery\\dist\\jquery.js",
@@ -687,7 +738,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 41,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\GGPC\\Downloads\\Car Garage\\RecyclingWorld\\RecyclingWorld\\Views\\Product\\Index.cshtml",
               "RelativeDocumentMoniker": "RecyclingWorld\\Views\\Product\\Index.cshtml",
@@ -700,7 +751,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 42,
               "Title": "ProductController.cs",
               "DocumentMoniker": "C:\\Users\\GGPC\\Downloads\\Car Garage\\RecyclingWorld\\RecyclingWorld\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "RecyclingWorld\\Controllers\\ProductController.cs",
@@ -713,7 +764,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 44,
               "Title": "20260624010357_AddRecyclingDomain.cs",
               "DocumentMoniker": "C:\\Users\\GGPC\\Downloads\\Car Garage\\RecyclingWorld\\RecyclingWorld\\Data\\Migrations\\20260624010357_AddRecyclingDomain.cs",
               "RelativeDocumentMoniker": "RecyclingWorld\\Data\\Migrations\\20260624010357_AddRecyclingDomain.cs",
@@ -726,7 +777,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 46,
               "Title": "20260624005830_AddRecyclingDomain.cs",
               "DocumentMoniker": "C:\\Users\\GGPC\\Downloads\\Car Garage\\RecyclingWorld\\RecyclingWorld\\Data\\Migrations\\20260624005830_AddRecyclingDomain.cs",
               "RelativeDocumentMoniker": "RecyclingWorld\\Data\\Migrations\\20260624005830_AddRecyclingDomain.cs",
@@ -739,7 +790,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 43,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\GGPC\\Downloads\\Car Garage\\RecyclingWorld\\RecyclingWorld\\Program.cs",
               "RelativeDocumentMoniker": "RecyclingWorld\\Program.cs",
@@ -752,7 +803,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 39,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\GGPC\\Downloads\\Car Garage\\RecyclingWorld\\RecyclingWorld\\Models\\Product.cs",
               "RelativeDocumentMoniker": "RecyclingWorld\\Models\\Product.cs",
@@ -765,7 +816,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 45,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\GGPC\\Downloads\\Car Garage\\RecyclingWorld\\RecyclingWorld\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "RecyclingWorld\\Data\\ApplicationDbContext.cs",
@@ -778,7 +829,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 47,
               "Title": "Shipment.cs",
               "DocumentMoniker": "C:\\Users\\GGPC\\Downloads\\Car Garage\\RecyclingWorld\\RecyclingWorld\\Models\\Shipment.cs",
               "RelativeDocumentMoniker": "RecyclingWorld\\Models\\Shipment.cs",
@@ -791,7 +842,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 48,
               "Title": "OrderDetail.cs",
               "DocumentMoniker": "C:\\Users\\GGPC\\Downloads\\Car Garage\\RecyclingWorld\\RecyclingWorld\\Models\\OrderDetail.cs",
               "RelativeDocumentMoniker": "RecyclingWorld\\Models\\OrderDetail.cs",
@@ -803,7 +854,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 49,
               "Title": "Order.cs",
               "DocumentMoniker": "C:\\Users\\GGPC\\Downloads\\Car Garage\\RecyclingWorld\\RecyclingWorld\\Models\\Order.cs",
               "RelativeDocumentMoniker": "RecyclingWorld\\Models\\Order.cs",
@@ -815,7 +866,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 50,
               "Title": "Category.cs",
               "DocumentMoniker": "C:\\Users\\GGPC\\Downloads\\Car Garage\\RecyclingWorld\\RecyclingWorld\\Models\\Category.cs",
               "RelativeDocumentMoniker": "RecyclingWorld\\Models\\Category.cs",

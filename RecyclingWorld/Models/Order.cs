@@ -13,9 +13,9 @@ namespace RecyclingWorld.Models
         public ApplicationUser ApplicationUser { get; set; }
 
         public DateTime OrderDate { get; set; }
-        public double OrderTotal { get; set; } 
+        public decimal OrderTotal { get; set; } 
         public string OrderStatus { get; set; }
-        public int PaymentStatus { get; set; }
+        public string PaymentStatus { get; set; }
 
         //stripe inmplementation fields 
         public string SessionId { get; set; }
