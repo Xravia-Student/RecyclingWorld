@@ -59,8 +59,7 @@
               "RelativeToolTip": "RecyclingWorld\\Models\\Product.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-24T00:29:32.139Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-24T00:29:32.139Z"
             },
             {
               "$type": "Document",
@@ -72,8 +71,7 @@
               "RelativeToolTip": "RecyclingWorld\\Models\\OrderDetail.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-24T00:29:27.06Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-24T00:29:27.06Z"
             },
             {
               "$type": "Document",
@@ -85,8 +83,7 @@
               "RelativeToolTip": "RecyclingWorld\\Models\\Order.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-24T00:29:21.171Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-24T00:29:21.171Z"
             },
             {
               "$type": "Document",
@@ -98,12 +95,7 @@
               "RelativeToolTip": "RecyclingWorld\\Models\\Category.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-24T00:29:04.412Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{c6f34f0d-7ae5-4f3a-be61-fe0c21ae9eb8}"
+              "WhenOpened": "2026-06-24T00:29:04.412Z"
             },
             {
               "$type": "Document",
@@ -115,8 +107,7 @@
               "RelativeToolTip": "RecyclingWorld\\Models\\ApplicationUser.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-24T00:20:31.587Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-24T00:20:31.587Z"
             }
           ]
         }
