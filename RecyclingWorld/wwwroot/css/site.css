@@ -20,3 +20,45 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+.navbar {
+    background-color: #2e5e3a !important; /* forest green */
+}
+
+    .navbar .navbar-brand,
+    .navbar .nav-link {
+        color: #ffffff !important;
+    }
+
+        .navbar .nav-link:hover {
+            color: #cde6d0 !important;
+        }
+
+.btn-success {
+    background-color: #2e5e3a;
+    border-color: #2e5e3a;
+}
+
+    .btn-success:hover {
+        background-color: #244c2f;
+        border-color: #244c2f;
+    }
+
+footer {
+    background-color: #f1f7f2;
+}
+body {
+    background-image: url('/images/Background.jpg');
+    background-size: cover; /* fill the whole screen */
+    background-position: center;
+    background-attachment: fixed; /* image stays put when scrolling */
+    background-repeat: no-repeat;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 25px;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

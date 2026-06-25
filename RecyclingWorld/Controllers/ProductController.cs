@@ -13,10 +13,16 @@ namespace RecyclingWorld.Controllers
             _db = db;
         }
 
-        public async Task<IActionResult> Index() // The Index action method is an asynchronous method that retrieves a list of products from the database, including their associated categories, and returns a view to display that list. It uses Entity Framework Core's Include method to perform eager loading of the related Category data, ensuring that the category information is available when the products are displayed in the view.
+        public async Task<IActionResult> Index(string searchString) // The Index action method is an asynchronous method that retrieves a list of products from the database, including their associated categories, and returns a view to display that list. It uses Entity Framework Core's Include method to perform eager loading of the related Category data, ensuring that the category information is available when the products are displayed in the view.
         {
-            var products = await _db.Products.Include(p => p.Category).ToListAsync();
-            return View(products);
+            var products = _db.Products.Include(p => p.Category).AsQueryable();
+
+            if (!string.IsNullOrEmpty(searchString))
+            {
+                products = products.Where(p => p.Title.Contains(searchString) || p.Grade.Contains(searchString));
+            }
+            ViewData["CurrentFilter"] = searchString;
+            return View(await products.ToListAsync());
         }
     }
 }

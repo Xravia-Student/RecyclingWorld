@@ -20,9 +20,15 @@ else
                     <td>@o.Id</td>
                     <td>@o.OrderDate.ToShortDateString()</td>
                     <td>$@o.OrderTotal</td>
-                    <td>@o.PaymentStatus</td>
+                    <td>
+                        <span class="badge @(o.PaymentStatus == "Paid" ? "bg-success" : "bg-warning text-dark")"> 
+                            @o.PaymentStatus
+                        </span>
+                    </td>
                     <td>@o.Shipment?.TrackingNumber</td>
-                    <td>@o.Shipment?.ShippingStatus</td>
+                    <td>
+                        <span class="badge bg-info text-dark">@o.Shipment?.ShippingStatus</span>
+                    </td>
                 </tr>
             }
         </tbody>

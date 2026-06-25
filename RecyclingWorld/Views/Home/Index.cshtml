@@ -1,8 +1,24 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Home";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="text-center py-5">
+    <h1 class="display-4 fw-bold">Recycling World</h1>
+    <p class="lead">Facilitating the exchange of recyclable materials primarily dealing with E-Waste.</p>
+    <a asp-controller="Product" asp-action="Index" class="btn btn-success btn-lg mt-3">Browse Materials</a>
+</div>
+
+<div class="row text-center mt-5">
+    <div class="col-md-4">
+        <h3>Buy Recyclables</h3>
+        <p>Sourcing recycled materials by the kilogram at great prices.</p>
+    </div>
+    <div class="col-md-4">
+        <h3>Supply Materials</h3>
+        <p>Turn your recyclable waste into value by listing it for manufacturers.</p>
+    </div>
+    <div class="col-md-4">
+        <h3>Track Shipments</h3>
+        <p>Follow every order from conception to delivery.</p>
+    </div>
 </div>

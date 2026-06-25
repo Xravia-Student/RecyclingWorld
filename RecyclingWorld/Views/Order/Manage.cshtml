@@ -14,7 +14,9 @@
                 <td>@o.Id</td>
                 <td>@o.ApplicationUser?.Name</td>
                 <td>$@o.OrderTotal</td>
-                <td>@o.Shipment?.ShippingStatus</td>
+                <td>
+                    <span class="badge bg-info text-dark">@o.Shipment?.ShippingStatus</span>
+                </td>
                 <td>@o.Shipment?.TrackingNumber</td>
                 <td>
                     @if (o.Shipment != null)

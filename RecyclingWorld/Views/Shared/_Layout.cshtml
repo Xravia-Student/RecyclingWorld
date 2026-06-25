@@ -31,7 +31,13 @@
                         @if (User.IsInRole("Admin"))
                         {
                             <li class="nav-item">
-                                <a class="nav-link text-dark" asp-controller="Order" asp-action="Manage">Manage Orders</a>
+                                <a class="nav-link" asp-controller="Order" asp-action="Manage">Manage Orders</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" asp-controller="Categories" asp-action="Index">Manage Categories</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" asp-controller="Products" asp-action="Index">Manage Products</a>
                             </li>
                         }
                     </ul>
@@ -48,7 +54,7 @@
 
     <footer class="border-top footer text-muted">
         <div class="container">
-            &copy; 2026 - RecyclingWorld - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            2026 - RecyclingWorld by Aaron Frawley
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
