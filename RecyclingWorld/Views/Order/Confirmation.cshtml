@@ -1,0 +1,30 @@
+﻿@model RecyclingWorld.Models.Order
+@{ ViewData["Title"] = "Order Confirmed"; }
+
+<div class="alert alert-success">
+    <h4>Thank you! Your order #@Model.Id is confirmed.</h4>
+</div>
+
+<p><strong>Order total:</strong> $@Model.OrderTotal</p>
+<p><strong>Payment status:</strong> @Model.PaymentStatus</p>
+
+@if (Model.Shipment != null)
+{
+    <p><strong>Tracking number:</strong> @Model.Shipment.TrackingNumber</p>
+    <p><strong>Shipment status:</strong> @Model.Shipment.ShippingStatus</p>
+    <p><strong>Carrier:</strong> @Model.Shipment.Carrier</p>
+}
+
+<h4 class="mt-4">Items</h4>
+<ul>
+@foreach (var d in Model.OrderDetails)
+{
+    <li>@d.Product?.Title — @d.Quantity kg at $@d.Price/kg</li>
+}
+</ul>
+
+<a asp-action="MyOrders" class="btn btn-outline-primary">View My Orders</a>
+
+@*
+    Created using Gemini https://learn.microsoft.com/en-us/aspnet/core/tutorials/first-mvc-app/adding-view?view=aspnetcore-8.0&tabs=visual-studio and other resources including class slides
+*@

@@ -26,6 +26,7 @@ namespace RecyclingWorld.Data
             modelBuilder.Entity<Product>().Property(p => p.PricePerKg500).HasPrecision(18, 2);
             modelBuilder.Entity<Product>().Property(p => p.PricePerKg1000).HasPrecision(18, 2);
             modelBuilder.Entity<OrderDetail>().Property(d => d.Price).HasPrecision(18, 2); // looked up fix that happened duuring migration of database, to prevent errors when trying to save OrderDetails with Price values that have more than 2 decimal places. This ensures that the database schema matches the precision defined in the model, allowing for proper storage and retrieval of monetary values without causing exceptions due to precision mismatches.
+            modelBuilder.Entity<Order>().Property(o => o.OrderTotal).HasPrecision(18, 2);
         }
     }
 }

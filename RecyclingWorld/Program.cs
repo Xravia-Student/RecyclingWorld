@@ -11,8 +11,8 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(connectionString));
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
-builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = false)
-    .AddRoles<IdentityRole>() //switches to using roles for authorization, allowing for role-based access control in the application. This enables the application to define different roles (e.g., Admin, User) and assign permissions based on those roles, enhancing security and user management capabilities
+builder.Services.AddDefaultIdentity<ApplicationUser>(options => options.SignIn.RequireConfirmedAccount = false)
+    .AddRoles<IdentityRole>()
     .AddEntityFrameworkStores<ApplicationDbContext>();
 builder.Services.AddDistributedMemoryCache(); // Adds a distributed in-memory cache service to the application, which can be used for caching data across multiple requests and sessions. This is particularly useful for improving performance by storing frequently accessed data in memory, reducing the need for repeated database queries or expensive computations.
 builder.Services.AddSession(options =>

@@ -1,0 +1,35 @@
+﻿@model List<RecyclingWorld.Models.Order>
+@{
+    ViewData["Title"] = "My Orders";
+}
+
+<h1 class="mb-4">My Orders</h1>
+
+@if (!Model.Any())
+{
+    <p>You have no orders yet.</p>
+}
+else
+{
+    <table class="table">
+        <thead><tr><th>Order #</th><th>Date</th><th>Total</th><th>Payment</th><th>Tracking</th><th>Shipment</th></tr></thead>
+        <tbody>
+            @foreach (var o in Model)
+            {
+                <tr>
+                    <td>@o.Id</td>
+                    <td>@o.OrderDate.ToShortDateString()</td>
+                    <td>$@o.OrderTotal</td>
+                    <td>@o.PaymentStatus</td>
+                    <td>@o.Shipment?.TrackingNumber</td>
+                    <td>@o.Shipment?.ShippingStatus</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+
+@*
+    Created using Gemini https://learn.microsoft.com/en-us/aspnet/core/tutorials/first-mvc-app/adding-view?view=aspnetcore-8.0&tabs=visual-studio and other resources including class slides
+*@

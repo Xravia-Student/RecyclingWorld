@@ -1,0 +1,41 @@
+﻿@model List<RecyclingWorld.Models.Order>
+@{
+    ViewData["Title"] = "Manage Orders";
+}
+
+<h1 class="mb-4">Manage Orders & Shipments</h1>
+
+<table class="table align-middle">
+    <thead><tr><th>Order #</th><th>Customer</th><th>Total</th><th>Status</th><th>Tracking</th><th>Update Shipment</th></tr></thead>
+    <tbody>
+        @foreach (var o in Model)
+        {
+            <tr>
+                <td>@o.Id</td>
+                <td>@o.ApplicationUser?.Name</td>
+                <td>$@o.OrderTotal</td>
+                <td>@o.Shipment?.ShippingStatus</td>
+                <td>@o.Shipment?.TrackingNumber</td>
+                <td>
+                    @if (o.Shipment != null)
+                    {
+                        <form asp-action="UpdateShipment" method="post" class="d-flex gap-2">
+                            @Html.AntiForgeryToken()
+                            <input type="hidden" name="shipmentId" value="@o.Shipment.Id" />
+                            <select name="status" class="form-select form-select-sm" style="max-width:140px;">
+                                <option value="Preparing">Preparing</option>
+                                <option value="InTransit">InTransit</option>
+                                <option value="Delivered">Delivered</option>
+                            </select>
+                            <button type="submit" class="btn btn-sm btn-primary">Update</button>
+                        </form>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@*
+    Created using Gemini https://learn.microsoft.com/en-us/aspnet/core/tutorials/first-mvc-app/adding-view?view=aspnetcore-8.0&tabs=visual-studio and other resources including class slides
+*@
