@@ -27,7 +27,7 @@
 
     <div class="col-md-6">
         <h4>Shipping Address</h4>
-        <form asp-action="PlaceOrder" method="post">
+        <form asp-action="Summary" method="post">
             @Html.AntiForgeryToken()
             <div class="mb-2">
                 <label asp-for="Order.Name" class="form-label">Name</label>

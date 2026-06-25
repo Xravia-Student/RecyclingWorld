@@ -115,6 +115,17 @@ namespace RecyclingWorld.Controllers
 
         }
 
+        public async Task<IActionResult> MyOrders()
+        {
+            var userId = _userManager.GetUserId(User);
+            var orders = await _db.Orders
+                .Where(o => o.ApplicationUserId == userId)   // only this user's orders
+                .Include(o => o.Shipment)
+                .OrderByDescending(o => o.OrderDate)
+                .ToListAsync();
+            return View(orders);
+        }
+
         [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Manage() // This action allows admins to view and manage all orders in the system, including their shipment status and details.
 
