@@ -104,7 +104,38 @@ namespace RecyclingWorld.Controllers
             // 4. clear the cart
             HttpContext.Session.Remove(CartKey);
 
-            return RedirectToAction("Confirmation", new { id = order.Id });
+            StripeConfiguration.ApiKey = _config["Stripe:SecretKey"]; // set the Stripe API key from configuration
+            var domain = $"{Request.Scheme}://{Request.Host}"; // get the domain of the current request to use in the success and cancel URLs
+
+            var lineItems = order.OrderDetails.Select(d => new Stripe.Checkout.SessionLineItemOptions // create line items for Stripe checkout
+            {
+                PriceData = new Stripe.Checkout.SessionLineItemPriceDataOptions // set the price data for each line item
+                {
+                    Currency = "nzd",
+                    UnitAmountDecimal = d.Price * 100, // Stripe expects the amount in cents, so multiply by 100
+                    ProductData = new Stripe.Checkout.SessionLineItemPriceDataProductDataOptions // set the product data for each line item
+                    {
+                        Name = d.Product?.Title ?? "Recyclable material" // use a default name if the product is null
+                    }
+                },
+                Quantity = (long)d.Quantity // set the quantity for each line item, cast to long as required by Stripe
+            }).ToList(); // convert the line items to a list
+
+            var options = new Stripe.Checkout.SessionCreateOptions // create the session options for Stripe checkout
+            {
+                Mode = "payment",
+                LineItems = lineItems,
+                SuccessUrl = $"{domain}/Order/PaymentSuccess?orderId={order.Id}",
+                CancelUrl = $"{domain}/Order/Summary"
+            };
+
+            var service = new Stripe.Checkout.SessionService(); // create a new instance of the Stripe session service
+            var session = service.Create(options); // create the Stripe checkout session
+
+            order.SessionId = session.Id; // save the session ID to the order for later verification
+            await _db.SaveChangesAsync(); // save the order with the session ID to the database
+
+            return Redirect(session.Url); // redirect the user to the Stripe checkout page
         }
 
         // Clear the cart after saving the order
@@ -189,3 +220,5 @@ namespace RecyclingWorld.Controllers
         }
     }
 }
+
+// used gemini and class slides to help with the code, and also used the stripe documentation to help with the payment integration.
