@@ -8,6 +8,7 @@ using RecyclingWorld.ViewModels;
 using RecyclingWorld.Utilities;
 using System.Security.Claims;
 using Stripe;
+using Stripe.Checkout;
 
 namespace RecyclingWorld.Controllers
 {
