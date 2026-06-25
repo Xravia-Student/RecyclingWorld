@@ -43,6 +43,7 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
+app.UseAuthentication(); // Adds authentication middleware to the request pipeline, enabling the application to authenticate users based on their credentials (e.g., username and password) and establish their identity. This is essential for securing access to protected resources and ensuring that only authorized users can perform certain actions within the application.
 app.UseAuthorization();
 
 app.UseSession(); // Adds session middleware to the request pipeline, enabling the application to manage user sessions and store session data across multiple requests. This allows for features such as user authentication, shopping carts, and other stateful interactions that require maintaining information about the user's session throughout their interaction with the application.
