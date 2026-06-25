@@ -7,7 +7,7 @@ using RecyclingWorld.Models;
 using RecyclingWorld.ViewModels;
 using RecyclingWorld.Utilities;
 using System.Security.Claims;
-using Microsoft.Identity.Client; // For accessing user claims
+using Stripe;
 
 namespace RecyclingWorld.Controllers
 {
@@ -16,12 +16,14 @@ namespace RecyclingWorld.Controllers
     {
         private readonly ApplicationDbContext _db;
         private readonly UserManager<ApplicationUser> _userManager;
+        private readonly IConfiguration _config;
         private const string CartKey = "Cart";
 
-        public OrderController(ApplicationDbContext db, UserManager<ApplicationUser> userManager)
+        public OrderController(ApplicationDbContext db, UserManager<ApplicationUser> userManager, IConfiguration config)
         {
             _db = db;
             _userManager = userManager;
+            _config = config; // Inject IConfiguration to access Stripe API keys from appsettings.json now works anywhere in the application, not just in the PaymentApiController.
         }
 
         public async Task<IActionResult> Summary()
@@ -111,8 +113,32 @@ namespace RecyclingWorld.Controllers
         {
             var order = await _db.Orders.Include(o => o.OrderDetails).ThenInclude(d => d.Product).Include(o => o.Shipment).FirstOrDefaultAsync(o => o.Id == id);
             if (order == null) return NotFound();
-            return View(order);
+            return View(order); // Pass the order to the view to display order details and shipment information
 
+        }
+        //stripe redirects to this action after payment is successful
+
+        public async Task<IActionResult> PaymentSuccess(int orderId)
+        {
+            var order = await _db.Orders
+                .Include(o => o.Shipment)
+                .FirstOrDefaultAsync(o => o.Id == orderId);
+            if (order == null) return NotFound(); // check if the order exists
+
+            // verify with Stripe that the session was actually paid
+            StripeConfiguration.ApiKey = _config["Stripe:SecretKey"];
+            var service = new Stripe.Checkout.SessionService();
+            var session = service.Get(order.SessionId);
+
+            if (session.PaymentStatus == "paid") // check if the payment was successful
+            {
+                order.PaymentStatus = "Paid";
+                order.OrderStatus = "Approved";// update order status to Approved after successful payment
+                order.PaymentIntentId = session.PaymentIntentId;
+                await _db.SaveChangesAsync();
+            }
+
+            return RedirectToAction("Confirmation", new { id = orderId }); // redirect to the confirmation page to show order details and shipment information
         }
 
         public async Task<IActionResult> MyOrders()
@@ -145,11 +171,11 @@ namespace RecyclingWorld.Controllers
         public async Task<IActionResult> UpdateShipment(int shipmentId, string status) // This action allows admins to update the shipment status of an order
         {
             var shipment = await _db.Shipments.FindAsync(shipmentId);
-            if (shipment == null) return NotFound();
+            if (shipment == null) return NotFound(); // check if the shipment exists
 
             shipment.ShippingStatus = status;
             if (status == "InTransit") shipment.ShippedDate = DateTime.Now;
-            var order = await _db.Orders.FindAsync(shipment.OrderId);
+            var order = await _db.Orders.FindAsync(shipment.OrderId); // find the order associated with the shipment
             if (order != null)
             {
                 if (status == "InTransit") order.OrderStatus = "Shipped";
@@ -157,7 +183,7 @@ namespace RecyclingWorld.Controllers
             }
 
             await _db.SaveChangesAsync();
-            return RedirectToAction("Manage");
+            return RedirectToAction("Manage"); // redirect back to the Manage view to see the updated shipment status
 
 
         }
