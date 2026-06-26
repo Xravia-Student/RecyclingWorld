@@ -32,5 +32,16 @@ namespace RecyclingWorld.Models
 
         [ForeignKey("CategoryId")]
         public Category Category { get; set; }
+
+        public decimal GetPriceForQuantity(double quantityKg)
+        {
+            if (quantityKg >= 1000 && PricePerKg1000 > 0)
+                return PricePerKg1000;
+            if (quantityKg >= 500 && PricePerKg500 > 0)
+                return PricePerKg500;
+            return PricePerKg;
+        }
+
     }
+
 }

@@ -34,6 +34,7 @@ namespace RecyclingWorld.Controllers
             if (existing != null)
             {
                 existing.Quantity += quantity;
+                existing.PricePerKg = product.GetPriceForQuantity(existing.Quantity);
             }
             else
             {
@@ -41,7 +42,7 @@ namespace RecyclingWorld.Controllers
                 {
                     ProductId = product.Id,
                     Title = product.Title,
-                    PricePerKg = product.PricePerKg,
+                    PricePerKg = product.GetPriceForQuantity(quantity),
                     Quantity = quantity
                 });
             }

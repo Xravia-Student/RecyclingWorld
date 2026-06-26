@@ -85,7 +85,7 @@ namespace RecyclingWorld.Controllers
                 {
                     ProductId = product.Id,
                     Quantity = item.Quantity,
-                    Price = product.PricePerKg // Assuming price is per kg and quantity is in kg
+                    Price = product.GetPriceForQuantity(item.Quantity) // Use the revised method to get the correct price based on quantity
                 });
             }
 

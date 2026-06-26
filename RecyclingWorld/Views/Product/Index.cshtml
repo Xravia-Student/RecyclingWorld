@@ -24,7 +24,11 @@
                     <h5 class="card-title">@product.Title</h5>
                     <p class="text-muted mb-1">@product.Category?.Name · Grade @product.Grade</p>
                     <p class="card-text">@product.description</p>
-                    <p class="fw-bold">$@product.PricePerKg / kg</p>
+                    <p class="fw-bold mb-0">$@product.PricePerKg / kg</p>
+                    @if (product.PricePerKg500 > 0)
+                    {
+                        <small class="text-success">500 kg+: $@product.PricePerKg500/kg · 1000 kg+: $@product.PricePerKg1000/kg</small>
+                    }
 
                     <form asp-controller="Cart" asp-action="AddToCart" method="post">
                         @Html.AntiForgeryToken()
